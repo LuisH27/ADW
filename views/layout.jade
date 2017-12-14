@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+	head
+		title ¡Comida a tu orden!
+		meta(charset="utf-8")
+		link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet")
+		link(href="/css/main.css" rel="stylesheet")
+		link(href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css')
+		link(href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css')
+		link(href='css/animate.css' rel='stylesheet' type='text/css')
+	body
+		nav(class="large-padding fondo-gris")
+			ul(class="no-list mediano")
+				li(class="pacifico col-md-3 inline-block")
+						a(href="/" class="green") Delitec #[small(class="lato small") Llama,Ordena,Disfruta]
+				li(class="col-md-3 inline-block")
+					a(href="/menu") Menú
+				li(class="col-md-3 inline-block")
+					a(href="/SignIn") SignIn
+				li(class="col-md-3 inline-block")
+						a(href="/SingOut") SignOut
+		block contenido
